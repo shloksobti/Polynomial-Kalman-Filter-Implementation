@@ -10,7 +10,9 @@ This filter is a three-state polynomial Kalman filter used to track a vehicle's 
 
 The above screenshot is a simulated result of using a simple Kalman filter, with 100 lost data points. One can see that as long as GPS data is available the kalman filter estimation is good; however, when data is unavailable, the the estimation becomes drastically unreliable. This is seen more clearly in the error plot below.
 
-![alt text](Screenshots/SimpleKalman2.png "Simple Kalman Filter with lost data points - Position Error")
+<p align="center">
+  <img src="https://github.com/shloksobti/Polynomial-Kalman-Filter-Implementation/blob/master/Screenshots/SimpleKalman2.png" width="512" title="Simple Kalman Filter with Lost Data Points - Position Error">
+</p>
 
 
 
