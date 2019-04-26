@@ -16,5 +16,14 @@ The above screenshot is a simulated result of using a simple Kalman filter, with
 
 
 ## Aided Kalman Filter
-The goal will be to see if we can combine the GPS and INS data so that we can estimate the bias and then use that information to aid the GPS system. In this example both GPS and INS are inadequate by themselves.
+The goal will be to see if we can combine the GPS and INS data so that we can estimate the bias and then use that information to aid the GPS system. In this example both GPS and INS are inadequate by themselves. The convergence of the bias has been visualized below.
 
+<p align="center">
+  <img src="https://github.com/shloksobti/Polynomial-Kalman-Filter-Implementation/blob/master/Screenshots/Bias.png" width="512" title="Aided Kalman Filter Bias Estimation">
+</p>
+
+The filter is successfully able to estimate the bias withing 50 seconds. When the data is lost after 100 seconds, one sees a similar result, proving that the filter is working properly. The result is visualized below.
+
+<p align="center">
+  <img src="https://github.com/shloksobti/Polynomial-Kalman-Filter-Implementation/blob/master/Screenshots/Bias2.png" width="512" title="Aided Kalman Filter Bias Estimation with Lost Data Points">
+</p>
