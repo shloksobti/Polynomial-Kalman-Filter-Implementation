@@ -15,4 +15,6 @@ The above screenshot is a simulated result of using a simple Kalman filter, with
 </p>
 
 
+## Aided Kalman Filter
+The goal will be to see if we can combine the GPS and INS data so that we can estimate the bias and then use that information to aid the GPS system. In this example both GPS and INS are inadequate by themselves.
 
